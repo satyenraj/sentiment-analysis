@@ -1,0 +1,23 @@
+{
+    "model_settings": {
+        "model_path": "./models/fine-tuned-model",
+        "tokenizer_path": None,
+        "batch_size": 32
+    },
+    "data_settings": {
+        "test_data_path": "./sample_data/test_data.csv",
+        "text_column": "text",
+        "label_column": "label",
+        "use_sample_data": True
+    },
+    "output_settings": {
+        "output_dir": "./test_results",
+        "save_detailed_results": True,
+        "create_visualizations": True
+    },
+    "visualization_settings": {
+        "figure_size": [12, 8],
+        "style": "seaborn-v0_8",
+        "color_palette": "husl"
+    }
+}
